@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://elytech.uk/</loc></url>
-  <url><loc>https://elytech.uk/privacy.html</loc></url>
+  <url><loc>https://elytech.uk/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-ely/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-cambridge/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-east-cambridgeshire/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-newmarket/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-bury-st-edmunds/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-kings-lynn/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/it-support-norwich/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://elytech.uk/privacy.html</loc><lastmod>2026-10-22</lastmod></url>
 </urlset>

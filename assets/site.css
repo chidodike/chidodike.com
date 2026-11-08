@@ -314,3 +314,6 @@ form.enquiry{background:var(--white);color:var(--ink);border-radius:18px;padding
 .mobile-only{display:none!important}
 @media (max-width:860px){.mobile-only{display:inline-flex!important}.desktop-only{display:none!important}}
 @media (max-width:600px){.hero .eyebrow{font-size:13px;padding:5px 12px}}
+.platforms ul{justify-content:space-around}
+@media (max-width:1060px){.platforms ul{justify-content:center;gap:12px 40px}}
+@media (max-width:600px){.platforms ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px;text-align:center}}

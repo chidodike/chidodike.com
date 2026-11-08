@@ -18,7 +18,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Jost:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 <script type="application/ld+json">
 {
@@ -42,7 +42,7 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="ElyTech Solutions home"><img src="/assets/elytech-logo.png" alt="ElyTech Solutions" width="600" height="160"></a>
+    <a class="brand" href="/" aria-label="ElyTech Solutions home"><img class="logo-dark" src="/assets/elytech-logo.png" alt="ElyTech Solutions" width="600" height="160"><img class="logo-light" src="/assets/elytech-logo-cream.png" alt="" aria-hidden="true" width="600" height="160"></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
     <nav class="nav" id="site-nav" aria-label="Main">
       <a class="link" href="#who">Who we help</a>
@@ -60,12 +60,12 @@
 <section class="hero">
   <img class="mark" src="/assets/elytech-mark-cream.png" alt="" aria-hidden="true">
   <div class="wrap">
-    <p class="eyebrow">IT management &amp; solutions · Ely, Cambridgeshire</p>
     <h1>Steady, secure IT for the businesses of <em>Ely and East&nbsp;Anglia.</em></h1>
     <p class="lede">ElyTech gives growing firms an experienced IT Manager on call: straight answers when something is urgent, and complete projects delivered from plan to handover. Enterprise discipline, without the enterprise overheads.</p>
     <div class="actions">
-      <a class="btn btn-primary" href="#contact">Book a free 30-minute IT review</a>
-      <a class="btn btn-ghost-light" href="tel:+441353880082">Call 01353 880082</a>
+      <a class="btn btn-primary mobile-only" href="#contact">Book a free 30-minute IT review</a>
+      <a class="btn btn-primary desktop-only" href="#services">Explore our services</a>
+      <a class="btn btn-ghost-light" href="#who">See who we help</a>
     </div>
     <div class="trust">
       <div><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z"/></svg><p><strong>13+ years in IT</strong>Support, systems, networks and security</p></div>
@@ -76,7 +76,37 @@
   </div>
 </section>
 
-<section class="section" id="who">
+<section class="platforms" aria-label="Microsoft cloud specialists">
+  <div class="wrap">
+    <p class="platforms-title">Microsoft cloud specialists</p>
+    <p class="platforms-line">Microsoft 365, Entra ID, Intune and Azure, set up securely and run properly.</p>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="about-copy">
+      <p class="eyebrow">About ElyTech</p>
+      <h2>Enterprise experience, local service.</h2>
+      <p>ElyTech Solutions is led by a senior IT professional with more than 13 years across technical support, systems administration, network engineering and IT operations, including leading international service desk teams.</p>
+      <p>We have seen how IT works at scale, and how it breaks. ElyTech brings that experience to local businesses, with someone nearby who knows your setup and answers the phone.</p>
+    </div>
+    <aside class="cover-card" aria-label="What we cover">
+      <h3>What we cover</h3>
+      <ul><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z"/></svg></span><div><strong>Cybersecurity</strong><span>Threat protection, backups, Cyber Essentials</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span><div><strong>Microsoft 365</strong><span>Email, Teams, SharePoint, licences</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.9 3.1-7 7-7s7 3.1 7 7"/></svg></span><div><strong>Identity &amp; access</strong><span>Entra ID, MFA, joiners and leavers</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><div><strong>Endpoint management</strong><span>Intune, encrypted and updated devices</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a15 15 0 0120 0M5 12.5a10 10 0 0114 0M8.5 16a5 5 0 017 0"/><circle cx="12" cy="19.5" r="1"/></svg></span><div><strong>Networks &amp; Wi-Fi</strong><span>Firewalls, office set-ups and moves</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a4 4 0 01-.5-8 6 6 0 0111.5 1.5A3.5 3.5 0 0117.5 18z"/></svg></span><div><strong>Cloud infrastructure</strong><span>Azure, migrations, file storage</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0118 0v4a2 2 0 01-2 2h-1v-6h3M3 12v4a2 2 0 002 2h1v-6H3"/></svg></span><div><strong>Service desk</strong><span>Support processes and escalation</span></div></li><li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></span><div><strong>Strategy &amp; suppliers</strong><span>Roadmaps, budgets, contracts</span></div></li></ul>
+    </aside>
+  </div>
+  <div class="wrap">
+    <dl class="stats">
+      <div><dt>13+</dt><dd>Years in IT</dd></div>
+      <div><dt>7</dt><dd>Local areas covered</dd></div>
+      <div><dt>30 min</dt><dd>Free IT review</dd></div>
+    </dl>
+  </div>
+</section>
+
+
+<section class="section alt" id="who">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Who we help</p>
@@ -84,17 +114,17 @@
       <p>Professional practices hold sensitive client data, answer to regulators and can't afford a day offline. We understand the pressures in your sector.</p>
     </div>
     <div class="sectors">
-      <article class="sector"><span class="tag">Legal</span><h3>Solicitors &amp; conveyancers</h3><p>Email fraud targets completion funds. We secure mailboxes, sign-ins and staff access so one stolen password can't redirect a client's money.</p></article>
-      <article class="sector"><span class="tag">Finance</span><h3>Accountants &amp; financial advisers</h3><p>Tax-season phishing and confidential client records. Secure email, multi-factor sign-in and controls you can evidence to clients and regulators.</p></article>
-      <article class="sector"><span class="tag">Healthcare</span><h3>Dental &amp; medical practices</h3><p>Shared reception PCs and patient records. Individual logins, managed and encrypted devices, and support with your data security obligations.</p></article>
-      <article class="sector"><span class="tag">Veterinary</span><h3>Veterinary practices</h3><p>Busy front desks and records shared between sites. Reliable networks, secure remote access and systems that stay up through clinic hours.</p></article>
-      <article class="sector"><span class="tag">Design</span><h3>Architects &amp; studios</h3><p>Large project files, laptops on site and frequent new starters. Fast file sharing, dependable backups and devices ready on day one.</p></article>
-      <article class="sector"><span class="tag">Growing teams</span><h3>Offices without an IT department</h3><p>Someone "techy" looks after IT on the side. Get an experienced IT Manager for the big decisions, without hiring one full-time.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M8 21h8M5 7h14"/><path d="M5 7l-3 6a3 3 0 006 0L5 7zM19 7l-3 6a3 3 0 006 0l-3-6z"/></svg></span><span class="tag">Legal</span><h3>Solicitors &amp; conveyancers</h3><p>Email fraud targets completion funds. We secure mailboxes, sign-ins and staff access so one stolen password can't redirect a client's money.</p><button class="sector-open" type="button" data-open="ex-legal" aria-haspopup="dialog" aria-label="See an example: a conveyancing firm in ely">See an example</button></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 6-7"/></svg></span><span class="tag">Finance</span><h3>Accountants &amp; financial advisers</h3><p>Tax-season phishing and confidential client records. Secure email, multi-factor sign-in and controls you can evidence to clients and regulators.</p><button class="sector-open" type="button" data-open="ex-finance" aria-haspopup="dialog" aria-label="See an example: an accountancy practice in newmarket">See an example</button></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg></span><span class="tag">Healthcare</span><h3>Dental &amp; medical practices</h3><p>Shared reception PCs and patient records. Individual logins, managed and encrypted devices, and support with your data security obligations.</p><button class="sector-open" type="button" data-open="ex-healthcare" aria-haspopup="dialog" aria-label="See an example: a dental practice near cambridge">See an example</button></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="9" r="1.8"/><circle cx="12" cy="6" r="1.8"/><circle cx="17" cy="9" r="1.8"/><path d="M12 12c-3 0-5.5 3.5-5.5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.8-.5 2.8-.5s1.9.5 2.8.5c1.5 0 2.7-1 2.7-2.5 0-2-2.5-5.5-5.5-5.5z"/></svg></span><span class="tag">Veterinary</span><h3>Veterinary practices</h3><p>Busy front desks and records shared between sites. Reliable networks, secure remote access and systems that stay up through clinic hours.</p><button class="sector-open" type="button" data-open="ex-vets" aria-haspopup="dialog" aria-label="See an example: a two-site veterinary practice near ely">See an example</button></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16l-1 4z"/><path d="M14 7l3 3"/></svg></span><span class="tag">Design</span><h3>Architects &amp; studios</h3><p>Large project files, laptops on site and frequent new starters. Fast file sharing, dependable backups and devices ready on day one.</p><button class="sector-open" type="button" data-open="ex-design" aria-haspopup="dialog" aria-label="See an example: an architecture studio in cambridge">See an example</button></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.3"/><path d="M16 14c2.8 0 5 2.2 5 5"/></svg></span><span class="tag">Growing teams</span><h3>Offices without an IT department</h3><p>Someone "techy" looks after IT on the side. Get an experienced IT Manager for the big decisions, without hiring one full-time.</p><button class="sector-open" type="button" data-open="ex-office" aria-haspopup="dialog" aria-label="See an example: a growing office in ely with no it person">See an example</button></article>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="services">
+<section class="section" id="services">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Services</p>
@@ -134,7 +164,7 @@
   </div>
 </section>
 
-<section class="section" id="automation">
+<section class="section alt" id="automation">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">AI &amp; Automation</p>
@@ -142,12 +172,12 @@
       <p>Most small businesses lose hours each week to repetitive tasks: re-typing data, chasing invoices, following up enquiries. We build automations that handle this in the background, and make sure any AI your team uses keeps client data protected.</p>
     </div>
     <div class="sectors">
-      <article class="sector"><span class="tag">Never miss a lead</span><h3>Missed-call &amp; enquiry follow-up</h3><p>Every caller and web enquiry gets an instant reply, and the lead is logged automatically, even when you're with a client.</p></article>
-      <article class="sector"><span class="tag">Save hours</span><h3>Workflow automation</h3><p>Connect your email, calendar, accounts and CRM so information moves between them without copy-and-paste. Invoice chasers and reminders run themselves.</p></article>
-      <article class="sector"><span class="tag">Paperwork</span><h3>AI document handling</h3><p>Summarise, sort and pull details out of emails, forms and PDFs, then file them where they belong.</p></article>
-      <article class="sector"><span class="tag">Protect client data</span><h3>Safe AI adoption</h3><p>A clear AI-use policy, a check on which AI tools staff already use, and data-protection gaps closed before they become a problem.</p></article>
-      <article class="sector"><span class="tag">Microsoft 365</span><h3>Copilot readiness</h3><p>Copilot can surface anything a user has access to. We tidy file and SharePoint permissions first, so switching it on is safe and worth the cost.</p></article>
-      <article class="sector"><span class="tag">Ongoing</span><h3>Managed automation</h3><p>We host, monitor and maintain your workflows, apply updates and fix issues, so your automations keep running.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span><span class="tag">Never miss a lead</span><h3>Missed-call &amp; enquiry follow-up</h3><p>Every caller and web enquiry gets an instant reply, and the lead is logged automatically, even when you're with a client.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 013 3v6.5M6 8.5V15a3 3 0 003 3h6.5"/></svg></span><span class="tag">Save hours</span><h3>Workflow automation</h3><p>Connect your email, calendar, accounts and CRM so information moves between them without copy-and-paste. Invoice chasers and reminders run themselves.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></span><span class="tag">Paperwork</span><h3>AI document handling</h3><p>Summarise, sort and pull details out of emails, forms and PDFs, then file them where they belong.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><span class="tag">Protect client data</span><h3>Safe AI adoption</h3><p>A clear AI-use policy, a check on which AI tools staff already use, and data-protection gaps closed before they become a problem.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span><span class="tag">Microsoft 365</span><h3>Copilot readiness</h3><p>Copilot can surface anything a user has access to. We tidy file and SharePoint permissions first, so switching it on is safe and worth the cost.</p></article>
+      <article class="sector"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 01-14.3 4.9M4 12A8 8 0 0118.3 7.1"/><path d="M18 3v4.5h-4.5M6 21v-4.5h4.5"/></svg></span><span class="tag">Ongoing</span><h3>Managed automation</h3><p>We host, monitor and maintain your workflows, apply updates and fix issues, so your automations keep running.</p></article>
     </div>
     <div class="actions" style="margin-top:32px">
       <a class="btn btn-primary" href="#contact" data-service="AI &amp; Automation">Book a free automation review</a>
@@ -173,17 +203,26 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="eyebrow">The ElyTech standard</p>
-      <h2>How we work, every time.</h2>
+
+<section class="section" id="why">
+  <div class="wrap split">
+    <div class="split-copy">
+      <div class="section-head">
+        <p class="eyebrow">Why ElyTech</p>
+        <h2>Built on trust, delivered with care.</h2>
+        <p>The standards used to run IT for global teams, sized for a business like yours and delivered by someone local.</p>
+      </div>
+      <ul class="checks">
+        <li><strong>One accountable person.</strong> You deal with the person doing the work. No ticket queues, no being passed around.</li>
+        <li><strong>Enterprise discipline.</strong> Proven processes for security, change and support, without the enterprise overheads.</li>
+        <li><strong>Plain English.</strong> Honest advice and clear choices. If you don't need something, we'll tell you.</li>
+        <li><strong>Documented, never locked in.</strong> Every system written up and handed over. Your IT stays yours.</li>
+      </ul>
+      <a class="btn btn-outline" href="#contact">Book a free IT review</a>
     </div>
-    <div class="standard">
-      <div><h3>One accountable person</h3><p>You deal with the person doing the work. No ticket queues, no being passed around.</p></div>
-      <div><h3>Enterprise discipline</h3><p>The standards used to run IT for global teams, sized for a business like yours.</p></div>
-      <div><h3>Plain English</h3><p>Honest advice and clear choices. If you don't need something, we'll tell you.</p></div>
-      <div><h3>Documented, never locked in</h3><p>Every system written up and handed over. Your IT stays yours.</p></div>
+    <div class="split-visual">
+      <img src="/assets/elytech-mark-cream.png" alt="" aria-hidden="true" width="636" height="900">
+      <p><strong>Enterprise discipline.</strong> Local service.</p>
     </div>
   </div>
 </section>
@@ -202,22 +241,7 @@
   </div>
 </section>
 
-<section class="section" id="about">
-  <div class="wrap about">
-    <div class="about-card"><img src="/assets/elytech-mark-cream.png" alt="" aria-hidden="true" width="636" height="900"><span>Ely, Cambridgeshire</span></div>
-    <div class="about-copy">
-      <p class="eyebrow">About ElyTech</p>
-      <h2>Enterprise experience, local service.</h2>
-      <p>ElyTech Solutions is led by a senior IT professional with more than 13 years across technical support, systems administration, network engineering and IT operations, including leading international service desk teams.</p>
-      <p>We have seen how IT works at scale, and how it breaks. ElyTech brings that experience to local businesses, with someone nearby who knows your setup and answers the phone.</p>
-      <div class="chips">
-        <span>IT strategy &amp; budgets</span><span>Cybersecurity</span><span>Identity &amp; access</span><span>Microsoft 365</span><span>Cloud infrastructure</span><span>Networks &amp; Wi-Fi</span><span>Endpoint management</span><span>Service desk operations</span><span>Supplier management</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section alt" id="areas">
+<section class="section" id="areas">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Areas we cover</p>
@@ -228,7 +252,7 @@
   </div>
 </section>
 
-<section class="section" id="faq">
+<section class="section alt" id="faq">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Questions</p>
@@ -277,6 +301,97 @@
   </div>
 </section>
 
+<dialog class="ex-modal" id="ex-legal" aria-labelledby="ex-legal-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Legal</p>
+    <h3 id="ex-legal-title">A conveyancing firm in Ely</h3>
+    <p class="meta">12 staff · one office</p>
+    <dl>
+      <div><dt>The situation</dt><dd>Two shared logins on reception, no multi-factor sign-in, a former employee's mailbox still active, and a recent email asking a client to send money to new bank details.</dd></div>
+      <div><dt>What we'd do</dt><dd>An IT Health Check in the first week, then an Identity &amp; Access Lockdown: multi-factor sign-in on every account, leavers' access removed, admin rights reduced, hidden mail-forwarding rules checked, and a short staff briefing on spotting payment fraud.</dd></div>
+      <div><dt>The result</dt><dd>Every account protected, a written risk report for the partners, and a simple joiner, leaver and bank-detail-change process the team actually follows.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: IT Health Check, then Project Delivery</span><a class="btn btn-primary btn-small" href="#contact" data-service="Project Delivery">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+<dialog class="ex-modal" id="ex-finance" aria-labelledby="ex-finance-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Finance</p>
+    <h3 id="ex-finance-title">An accountancy practice in Newmarket</h3>
+    <p class="meta">8 staff · one office</p>
+    <dl>
+      <div><dt>The situation</dt><dd>Every January staff receive HMRC-themed phishing, and last year someone entered their password on a fake sign-in page. One admin account is shared, and the practice pays for more Microsoft 365 licences than it has staff.</dd></div>
+      <div><dt>What we'd do</dt><dd>An IT Health Check, then multi-factor sign-in on every account, the shared admin account replaced with named ones, stronger email filtering for links and attachments, unused licences removed, and a 20-minute phishing briefing before tax season.</dd></div>
+      <div><dt>The result</dt><dd>Accounts protected before the January peak, licence costs matched to the team, and a written record of security controls to show clients who ask.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: IT Health Check, then Project Delivery</span><a class="btn btn-primary btn-small" href="#contact" data-service="IT Health Check &amp; Roadmap">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+<dialog class="ex-modal" id="ex-healthcare" aria-labelledby="ex-healthcare-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Healthcare</p>
+    <h3 id="ex-healthcare-title">A dental practice near Cambridge</h3>
+    <p class="meta">4 surgeries · 20 staff</p>
+    <dl>
+      <div><dt>The situation</dt><dd>Reception staff share one login, each PC was set up by hand at a different time, updates are patchy and nobody has ever tested restoring the backup.</dd></div>
+      <div><dt>What we'd do</dt><dd>Individual sign-ins for every team member, all practice computers brought under central management with encryption and automatic updates, and a full test restore of the backup. All work scheduled outside clinic hours.</dd></div>
+      <div><dt>The result</dt><dd>Patient records better protected, new staff set up in minutes, a lost laptop can be wiped remotely, and evidence ready for the practice's data security checks.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: Project Delivery</span><a class="btn btn-primary btn-small" href="#contact" data-service="Project Delivery">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+<dialog class="ex-modal" id="ex-vets" aria-labelledby="ex-vets-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Veterinary</p>
+    <h3 id="ex-vets-title">A two-site veterinary practice near Ely</h3>
+    <p class="meta">15 staff · two sites</p>
+    <dl>
+      <div><dt>The situation</dt><dd>The practice records system is slow at the branch site, Wi-Fi drops in the consult rooms, reception PCs share one login, and nobody is sure the backups work.</dd></div>
+      <div><dt>What we'd do</dt><dd>A network survey at both sites, reliable Wi-Fi and a secure link between them, individual sign-ins, managed and encrypted computers, and a tested backup restore. Installs scheduled outside clinic hours.</dd></div>
+      <div><dt>The result</dt><dd>Records load quickly at both sites, every consult room has signal, staff each have their own secure login, and the backups are proven to work.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: Project Delivery</span><a class="btn btn-primary btn-small" href="#contact" data-service="Project Delivery">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+<dialog class="ex-modal" id="ex-design" aria-labelledby="ex-design-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Design</p>
+    <h3 id="ex-design-title">An architecture studio in Cambridge</h3>
+    <p class="meta">18 staff · growing</p>
+    <dl>
+      <div><dt>The situation</dt><dd>Project files live on an ageing office server that's slow to reach from site, every new starter takes two days to set up, and suppliers are managed by whoever has time.</dd></div>
+      <div><dt>What we'd do</dt><dd>A Fractional IT Manager: a 12-month plan, project files moved to well-structured cloud storage, laptops that set themselves up for new starters, and one person managing the internet, printer and software suppliers.</dd></div>
+      <div><dt>The result</dt><dd>Files available on site and at home, new starters working on day one, fewer surprises on the IT bill, and the partners free of IT decisions.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: Fractional IT Manager</span><a class="btn btn-primary btn-small" href="#contact" data-service="Fractional IT Manager">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+<dialog class="ex-modal" id="ex-office" aria-labelledby="ex-office-title">
+  <div class="ex-modal-inner">
+    <button class="ex-close" type="button" aria-label="Close">&times;</button>
+    <p class="ex-label">Example engagement · Growing teams</p>
+    <h3 id="ex-office-title">A growing office in Ely with no IT person</h3>
+    <p class="meta">20 staff · one office</p>
+    <dl>
+      <div><dt>The situation</dt><dd>The office manager looks after IT on top of the day job. Laptops are bought as needed, nobody is sure which accounts exist, and software renewals arrive as surprises.</dd></div>
+      <div><dt>What we'd do</dt><dd>An IT Health Check, then a Fractional IT Manager: a full list of devices and accounts, one standard laptop set-up, a joiner and leaver checklist, a renewals calendar and a short quarterly review.</dd></div>
+      <div><dt>The result</dt><dd>One person accountable for IT, a predictable budget, no forgotten accounts, and the office manager back to their actual job.</dd></div>
+    </dl>
+    <div class="ex-modal-foot"><span>Typical route: IT Health Check, then Fractional IT Manager</span><a class="btn btn-primary btn-small" href="#contact" data-service="Fractional IT Manager">Discuss something similar</a></div>
+    <p class="ex-note">An illustrative example based on problems common to firms like this.</p>
+  </div>
+</dialog>
+
 </main>
 
 <footer class="site-footer">
@@ -307,5 +422,22 @@
 </script>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6d2a5d211ded48889d83593cf632d396"}'></script><!-- End Cloudflare Web Analytics -->
 <script>(function(){var b=document.querySelector(".menu-toggle"),h=document.querySelector(".site-header");if(!b||!h)return;function s(o){h.classList.toggle("menu-open",o);b.setAttribute("aria-expanded",o?"true":"false");b.setAttribute("aria-label",o?"Close menu":"Open menu");}b.addEventListener("click",function(){s(!h.classList.contains("menu-open"));});document.querySelectorAll("#site-nav a").forEach(function(a){a.addEventListener("click",function(){s(false);});});document.addEventListener("keydown",function(e){if(e.key==="Escape")s(false);});})();</script>
+<script>
+  (function () {
+    document.querySelectorAll('[data-open]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var d = document.getElementById(b.getAttribute('data-open'));
+        if (d && d.showModal) { d.showModal(); }
+      });
+    });
+    document.querySelectorAll('.ex-modal').forEach(function (d) {
+      d.querySelector('.ex-close').addEventListener('click', function () { d.close(); });
+      d.addEventListener('click', function (e) { if (e.target === d) d.close(); });
+      d.querySelectorAll('a[href="#contact"]').forEach(function (a) {
+        a.addEventListener('click', function () { d.close(); });
+      });
+    });
+  })();
+</script>
 </body>
 </html>

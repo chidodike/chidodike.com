@@ -37,12 +37,12 @@
 }
 </script>
 </head>
-<body>
+<body class="has-hero">
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="ElyTech Solutions home"><img src="/assets/elytech-logo.png" alt="ElyTech Solutions" width="600" height="160"></a>
+    <a class="brand" href="/" aria-label="ElyTech Solutions home"><img class="logo-dark" src="/assets/elytech-logo.png" alt="ElyTech Solutions" width="600" height="160"><img class="logo-light" src="/assets/elytech-logo-cream.png" alt="" aria-hidden="true" width="600" height="160"></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
     <nav class="nav" id="site-nav" aria-label="Main">
       <a class="link" href="#who">Who we help</a>
@@ -86,7 +86,30 @@
   </div>
 </section>
 
-<section class="section" id="who">
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="about-card"><img src="/assets/elytech-mark-cream.png" alt="" aria-hidden="true" width="636" height="900"><span>Ely, Cambridgeshire</span></div>
+    <div class="about-copy">
+      <p class="eyebrow">About ElyTech</p>
+      <h2>Enterprise experience, local service.</h2>
+      <p>ElyTech Solutions is led by a senior IT professional with more than 13 years across technical support, systems administration, network engineering and IT operations, including leading international service desk teams.</p>
+      <p>We have seen how IT works at scale, and how it breaks. ElyTech brings that experience to local businesses, with someone nearby who knows your setup and answers the phone.</p>
+      <div class="chips">
+        <span>IT strategy &amp; budgets</span><span>Cybersecurity</span><span>Identity &amp; access</span><span>Microsoft 365</span><span>Cloud infrastructure</span><span>Networks &amp; Wi-Fi</span><span>Endpoint management</span><span>Service desk operations</span><span>Supplier management</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="stats">
+      <div><dt>13+</dt><dd>Years in IT</dd></div>
+      <div><dt>7</dt><dd>Local areas covered</dd></div>
+      <div><dt>30 min</dt><dd>Free IT review</dd></div>
+    </dl>
+  </div>
+</section>
+
+
+<section class="section alt" id="who">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Who we help</p>
@@ -104,7 +127,7 @@
   </div>
 </section>
 
-<section class="section alt" id="services">
+<section class="section" id="services">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Services</p>
@@ -144,7 +167,7 @@
   </div>
 </section>
 
-<section class="section" id="automation">
+<section class="section alt" id="automation">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">AI &amp; Automation</p>
@@ -165,25 +188,7 @@
   </div>
 </section>
 
-<section class="section dark" id="projects">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="eyebrow">Projects</p>
-      <h2>The projects we deliver, start to finish.</h2>
-      <p>You get the outcome, not a list of jobs to chase. We plan it, coordinate the suppliers, do the work and hand it over properly.</p>
-    </div>
-    <div class="projects">
-      <article class="project"><span class="num">01</span><h3>Office set-up &amp; moves</h3><p>Internet, Wi-Fi, firewall, cabling, phones and printers working on day one.</p></article>
-      <article class="project"><span class="num">02</span><h3>Cloud &amp; email migrations</h3><p>Files, email and servers moved to Microsoft 365, Google Workspace or Azure without losing a thing.</p></article>
-      <article class="project"><span class="num">03</span><h3>Security &amp; access</h3><p>Multi-factor sign-in, single sign-on, admin clean-up and a proper joiner and leaver process.</p></article>
-      <article class="project"><span class="num">04</span><h3>Devices &amp; new starters</h3><p>Laptops set up remotely, encrypted, kept up to date and wiped if they go missing.</p></article>
-      <article class="project"><span class="num">05</span><h3>Backup &amp; recovery</h3><p>Tested backups and a clear plan for ransomware, hardware failure or human error.</p></article>
-      <article class="project"><span class="num">06</span><h3>Cyber Essentials readiness</h3><p>Your systems prepared for the UK government-backed scheme, so certification goes smoothly.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section alt" id="examples">
+<section class="section" id="examples">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Example engagements</p>
@@ -231,6 +236,25 @@
   </div>
 </section>
 
+<section class="section dark" id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Projects</p>
+      <h2>The projects we deliver, start to finish.</h2>
+      <p>You get the outcome, not a list of jobs to chase. We plan it, coordinate the suppliers, do the work and hand it over properly.</p>
+    </div>
+    <div class="projects">
+      <article class="project"><span class="num">01</span><h3>Office set-up &amp; moves</h3><p>Internet, Wi-Fi, firewall, cabling, phones and printers working on day one.</p></article>
+      <article class="project"><span class="num">02</span><h3>Cloud &amp; email migrations</h3><p>Files, email and servers moved to Microsoft 365, Google Workspace or Azure without losing a thing.</p></article>
+      <article class="project"><span class="num">03</span><h3>Security &amp; access</h3><p>Multi-factor sign-in, single sign-on, admin clean-up and a proper joiner and leaver process.</p></article>
+      <article class="project"><span class="num">04</span><h3>Devices &amp; new starters</h3><p>Laptops set up remotely, encrypted, kept up to date and wiped if they go missing.</p></article>
+      <article class="project"><span class="num">05</span><h3>Backup &amp; recovery</h3><p>Tested backups and a clear plan for ransomware, hardware failure or human error.</p></article>
+      <article class="project"><span class="num">06</span><h3>Cyber Essentials readiness</h3><p>Your systems prepared for the UK government-backed scheme, so certification goes smoothly.</p></article>
+    </div>
+  </div>
+</section>
+
+
 <section class="section" id="why">
   <div class="wrap why">
     <div class="why-visual">
@@ -267,29 +291,7 @@
   </div>
 </section>
 
-<section class="section" id="about">
-  <div class="wrap about">
-    <div class="about-card"><img src="/assets/elytech-mark-cream.png" alt="" aria-hidden="true" width="636" height="900"><span>Ely, Cambridgeshire</span></div>
-    <div class="about-copy">
-      <p class="eyebrow">About ElyTech</p>
-      <h2>Enterprise experience, local service.</h2>
-      <p>ElyTech Solutions is led by a senior IT professional with more than 13 years across technical support, systems administration, network engineering and IT operations, including leading international service desk teams.</p>
-      <p>We have seen how IT works at scale, and how it breaks. ElyTech brings that experience to local businesses, with someone nearby who knows your setup and answers the phone.</p>
-      <div class="chips">
-        <span>IT strategy &amp; budgets</span><span>Cybersecurity</span><span>Identity &amp; access</span><span>Microsoft 365</span><span>Cloud infrastructure</span><span>Networks &amp; Wi-Fi</span><span>Endpoint management</span><span>Service desk operations</span><span>Supplier management</span>
-      </div>
-    </div>
-  </div>
-  <div class="wrap">
-    <dl class="stats">
-      <div><dt>13+</dt><dd>Years in IT</dd></div>
-      <div><dt>7</dt><dd>Local areas covered</dd></div>
-      <div><dt>30 min</dt><dd>Free IT review</dd></div>
-    </dl>
-  </div>
-</section>
-
-<section class="section alt" id="areas">
+<section class="section" id="areas">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Areas we cover</p>
@@ -300,7 +302,7 @@
   </div>
 </section>
 
-<section class="section" id="faq">
+<section class="section alt" id="faq">
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Questions</p>

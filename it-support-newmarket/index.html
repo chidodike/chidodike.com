@@ -29,10 +29,12 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/" aria-label="ElyTech Solutions home"><img src="/assets/elytech-logo.png" alt="ElyTech Solutions" width="600" height="160"></a>
-    <nav class="nav" aria-label="Main">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
       <a class="link" href="/#who">Who we help</a>
       <a class="link" href="/#services">Services</a>
-      <a class="link" href="/#areas">Areas</a>
+      <a class="link" href="/#automation">AI &amp; Automation</a>
+      <a class="link" href="/#about">About</a>
       <a class="phone" href="tel:+441353880082">01353 880082</a>
       <a class="btn btn-primary btn-small" href="#contact">Book a free IT review</a>
     </nav>
@@ -157,5 +159,6 @@
   });
 </script>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6d2a5d211ded48889d83593cf632d396"}'></script><!-- End Cloudflare Web Analytics -->
+<script>(function(){var b=document.querySelector(".menu-toggle"),h=document.querySelector(".site-header");if(!b||!h)return;function s(o){h.classList.toggle("menu-open",o);b.setAttribute("aria-expanded",o?"true":"false");b.setAttribute("aria-label",o?"Close menu":"Open menu");}b.addEventListener("click",function(){s(!h.classList.contains("menu-open"));});document.querySelectorAll("#site-nav a").forEach(function(a){a.addEventListener("click",function(){s(false);});});document.addEventListener("keydown",function(e){if(e.key==="Escape")s(false);});})();</script>
 </body>
 </html>

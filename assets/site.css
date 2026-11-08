@@ -376,3 +376,24 @@ form.enquiry{border-radius:24px}
 .eyebrow{text-transform:none;letter-spacing:0;font-size:15px;font-weight:500}
 .about-card span{text-transform:none;letter-spacing:0;font-size:14px}
 .contact{margin-bottom:16px}
+
+/* Tighter rhythm (8 Nov): less dead space, alternating inset panels */
+.section{padding:72px 0}
+.section-head{margin-bottom:36px}
+.section-head h2{font-size:clamp(32px,3.8vw,48px)}
+.alt{background:var(--white);margin:0 16px;border-radius:28px}
+.alt .sector,.alt .service:not(.featured),.alt .step,.alt .example,.alt .area{background:#FBF7F3;border-color:#EFE4DA}
+.alt + .section,.dark + .section,.contact + .section{padding-top:72px}
+.section + .alt,.section + .dark{margin-top:0}
+.hero .wrap{padding-top:56px;padding-bottom:40px}
+.hero h1{margin-top:48px}
+.hero .trust{margin-top:40px}
+.platforms{padding:28px 0 4px}
+.why{gap:48px}
+.accordion{margin-bottom:16px}
+.stats{margin-top:48px;padding-top:32px}
+.coverage{margin-top:48px;padding-top:32px}
+@media (max-width:860px){.section{padding:56px 0}.hero h1{margin:14px 0 18px}}
+@media (max-width:600px){.section{padding:48px 0}.alt{margin:0 8px;border-radius:22px}.section-head{margin-bottom:28px}}
+.alt,.dark{margin-top:16px;margin-bottom:16px}
+@media (max-width:600px){.alt,.dark{margin-top:8px;margin-bottom:8px}}

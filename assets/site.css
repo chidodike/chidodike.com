@@ -339,3 +339,29 @@ form.enquiry{background:var(--white);color:var(--ink);border-radius:18px;padding
 @media (max-width:600px){.cover-card ul{grid-template-columns:minmax(0,1fr)}.cover-card{padding:22px}}
 @media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}}
 .hero h1:first-child{margin-top:0}
+
+/* Who we help cards open an example */
+.sector{position:relative}
+.sector-open{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:8px 0 0;background:none;border:0;border-top:1px solid var(--line);width:100%;font:inherit;font-size:14px;font-weight:600;color:var(--copper-dark);cursor:pointer;text-align:left}
+.sector-open::before{content:"";position:absolute;inset:0;border-radius:inherit}
+.sector-open::after{content:"\00a0\2192"}
+.sector:hover .sector-open{color:var(--brown)}
+.sector-open:focus-visible{outline:none}
+.sector:has(.sector-open:focus-visible){outline:3px solid var(--accent);outline-offset:3px}
+
+/* Example pop-up */
+.ex-modal{border:0;padding:0;border-radius:18px;width:min(640px,calc(100% - 32px));max-height:calc(100vh - 48px);box-shadow:0 30px 80px rgba(20,10,3,.35);color:var(--ink)}
+.ex-modal::backdrop{background:rgba(26,13,4,.55);backdrop-filter:blur(3px)}
+.ex-modal-inner{position:relative;padding:34px 34px 26px;display:flex;flex-direction:column;gap:14px}
+.ex-close{position:absolute;top:14px;right:14px;width:44px;height:44px;border-radius:50%;border:0;background:var(--sand);color:var(--ink);font-size:26px;line-height:1;cursor:pointer}
+.ex-close:hover{background:var(--accent)}
+.ex-label{font-size:13px;font-weight:600;color:var(--copper)}
+.ex-modal h3{font-size:26px;padding-right:48px}
+.ex-modal .meta{font-size:14px;color:var(--muted);margin-top:-8px}
+.ex-modal dl{margin:6px 0 0;display:flex;flex-direction:column;gap:12px}
+.ex-modal dl div{border-top:1px solid var(--line);padding-top:12px}
+.ex-modal dt{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin-bottom:4px}
+.ex-modal dd{margin:0;font-size:15.5px}
+.ex-modal-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.ex-note{font-size:13px;color:var(--muted)}
+@media (max-width:600px){.ex-modal-inner{padding:26px 20px 20px}.ex-modal h3{font-size:22px}}

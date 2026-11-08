@@ -397,3 +397,7 @@ form.enquiry{border-radius:24px}
 @media (max-width:600px){.section{padding:48px 0}.alt{margin:0 8px;border-radius:22px}.section-head{margin-bottom:28px}}
 .alt,.dark{margin-top:16px;margin-bottom:16px}
 @media (max-width:600px){.alt,.dark{margin-top:8px;margin-bottom:8px}}
+/* Sector icons replace the logo badge */
+.sector::before{content:none;display:none}
+.sector .icon{width:44px;height:44px;border-radius:50%;background:var(--soft);color:var(--copper-dark);display:flex;align-items:center;justify-content:center;margin-bottom:6px}
+.sector .icon svg{width:21px;height:21px}

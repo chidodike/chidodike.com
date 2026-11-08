@@ -338,3 +338,4 @@ form.enquiry{background:var(--white);color:var(--ink);border-radius:18px;padding
 .cover-card li span:not(.icon){display:block;font-size:13.5px;color:var(--body);line-height:1.45}
 @media (max-width:600px){.cover-card ul{grid-template-columns:minmax(0,1fr)}.cover-card{padding:22px}}
 @media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}}
+.hero h1:first-child{margin-top:0}

@@ -473,3 +473,5 @@ form.enquiry{border-radius:24px}
 @media (max-width:600px){.site-footer{margin:0 8px 8px;border-radius:22px}}
 .section-head:not(:has(> p:not(.eyebrow))) h2{grid-column:1 / -1}
 @media (max-width:600px){.hero .trust{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.hero .trust > div{padding:12px;flex-direction:column;gap:6px;font-size:13px}.hero .trust strong{font-size:14px}}
+.mobile-only{display:none}
+@media (max-width:860px){.mobile-only{display:inline-flex}.desktop-only{display:none}}

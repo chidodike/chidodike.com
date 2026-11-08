@@ -265,3 +265,5 @@ form.enquiry{background:var(--cream);color:var(--ink);border-radius:20px;padding
 @media (max-width:1180px){.nav{gap:20px}}
 @media (max-width:860px){.examples{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:600px){.example{padding:24px}}
+.nav a{white-space:nowrap}
+@media (min-width:861px) and (max-width:1180px){.nav .phone{display:none}}

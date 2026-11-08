@@ -317,3 +317,24 @@ form.enquiry{background:var(--white);color:var(--ink);border-radius:18px;padding
 .platforms ul{justify-content:space-around}
 @media (max-width:1060px){.platforms ul{justify-content:center;gap:12px 40px}}
 @media (max-width:600px){.platforms ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px;text-align:center}}
+
+/* Microsoft band as one statement */
+.platforms{padding:26px 0}
+.platforms .wrap{display:flex;align-items:center;justify-content:center;gap:12px 28px;flex-wrap:wrap;text-align:center}
+.platforms .platforms-title{flex:none;max-width:none;font-family:var(--display);font-weight:600;font-size:clamp(19px,2vw,24px);color:var(--cream);line-height:1.2}
+.platforms .platforms-line{flex:none;max-width:none;font-size:15px;color:var(--copper-light);line-height:1.4}
+.platforms .platforms-title::after{content:"";display:inline-block;width:1px;height:22px;background:rgba(255,246,240,.3);margin-left:28px;vertical-align:middle}
+@media (max-width:860px){.platforms .wrap{flex-direction:column;gap:6px}.platforms .platforms-title::after{display:none}}
+
+/* About: copy left, What we cover card right */
+.about{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start}
+.cover-card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow-lift);border-top:3px solid var(--accent);padding:28px}
+.cover-card h3{font-size:20px;margin-bottom:18px}
+.cover-card ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 22px}
+.cover-card li{display:flex;gap:12px;align-items:flex-start}
+.cover-card .icon{flex:none;width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,var(--copper-light),var(--copper));color:var(--white);display:flex;align-items:center;justify-content:center}
+.cover-card .icon svg{width:18px;height:18px}
+.cover-card strong{display:block;font-size:15px;font-weight:600;color:var(--ink)}
+.cover-card li span:not(.icon){display:block;font-size:13.5px;color:var(--body);line-height:1.45}
+@media (max-width:600px){.cover-card ul{grid-template-columns:minmax(0,1fr)}.cover-card{padding:22px}}
+@media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}}
